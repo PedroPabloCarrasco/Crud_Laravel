@@ -406,6 +406,8 @@
 
 <body class="antialiased">
     <h1>Hola bro</h1>
+
+    <a href="{{ route('productos.index') }}">Listado de productos</a>
 </body>
 
 </html>
