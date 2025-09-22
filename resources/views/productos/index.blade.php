@@ -84,18 +84,18 @@
 
     <!-- Paginación -->
     <div class="d-flex justify-content-center mt-4">
-        {{ $productos->links() }}
-    </div>
+        {{ $productos->links()
+        </div>
 
-    <!-- Estilos adicionales -->
-    <style>
-        .card-producto {
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
+        <!-- Estilos adicionales -->
+        <style>
+            .card-producto {
+                transition: transform 0.2s, box-shadow 0.2s;
+            }
 
-        .card-producto:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-        }
-    </style>
+            .card-producto:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            }
+        </style>
 @endsection
